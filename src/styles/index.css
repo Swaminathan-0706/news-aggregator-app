@@ -17,6 +17,7 @@ display: inline;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 16%;
+    display: inline-block;
 }
 #toggle_action{
   display: none;
