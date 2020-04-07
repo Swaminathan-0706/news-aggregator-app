@@ -194,45 +194,97 @@ body{
      font-size: 35px;
      margin-left: 25px;
    }
+     /* Responsive Web design for small devices*/
      
-      /* Complete Responsive design with ALL five typical breakpoints */
-      /* Extra small devices (phones, 600px and down) */
+     /* Extra small devices (phones, 600px and down) */
+
   @media only screen and (max-width: 600px) {
   
     .mainheading{
-      color: white;
+      color:var(--font-color);
       font-size: 25px;
       font-family: 'Trebuchet MS';
       border: white 1px solid;
-      margin-left: 5%;
-      margin-top: 2%;
+      margin-left: 10%;
+      margin-top: 4%;
       padding: 10px;
       padding-left: 23px;
       padding-right: 23px;
       display: inline-block;
       }
       .toggletxt{
-          color: white;
+        color:var(--font-color);
           font-family: Verdana, Geneva, Tahoma, sans-serif;
-          margin-left: 16%;
-          display: inline-block;
+          display: block;
+          margin-top: 7%;
+          font-size: larger;
       }
-  
+      .switch{
+        margin-left: 135px;
+      }
+      .search-bar{
+        width: 580px;
+        margin: 0px;
+        padding: 0px;
+      }
+      #search{
+        width: 55%;
+        height: 20px;
+        background-color:var(--background-body-color);
+        margin-left: 2%;
+        padding :20px;
+        font-size: 20px;
+        color:var(--font-color);
+        border-top: black;
+        border-left: black;
+        border-right: black;
+        
+    }
+    .container{
+      max-width: 240px;
+      border: black 10px solid;
+      height:550px;
+      padding:35px;
+      background-color:var(--box-color);
+      margin-bottom: 20px;
+      border-radius: 18px;
+      padding-right: 30px;
+      margin-left: -18px;
+      margin-top: 10px;
+    }
+    #news-articles{
+      margin-left: 2px;    
+      display: flex;
+      flex-wrap: wrap;  
+    }
+    .not-found{
+      color:var(--font-color);
+      font-family: sans-serif;
+      font-size: 25px;
+      margin-left: -20px;
+      list-style-type: none;
+    }
+    .load{
+     color:var(--font-color);
+     font-family: sans-serif;
+     font-size: 25px;
+     margin-left: 25px;
+   }
+   .article{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: -14px;
+ }
+   .img_area{
+    width:265px;
+    height:250px;
+    background-color:var(--img-background);
   }
-  
-  /* Small devices (portrait tablets and large phones, 600px and up) */
-  @media only screen and (min-width: 600px) {
-  
-  
+  .article-img{
+    margin-top: 20px;
+    width:265px;
+    height:205px;
   }
-  
-  /* Medium devices (landscape tablets, 768px and up) */
-  @media only screen and (min-width: 768px) {
-  
   }
-  
-  /* Large devices (laptops/desktops, 992px and up) */
-  @media only screen and (min-width: 992px) {
-  
-  }
+   
   
